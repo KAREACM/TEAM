@@ -1,0 +1,384 @@
+body {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Css Starts*/
+
+.header-bar{
+    display: inline-flex;
+    width: 100%;
+    background-color: black;
+}
+
+.logo-img{
+    width:100%;
+    max-width: 88px;
+    height: 100%;
+}
+
+.client-logo , .navbarr {
+    width: 50%;
+    padding: 10px;
+}
+
+.navlist ul li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.navlist ul {
+    list-style: none;
+    padding-top: 20px;
+    margin: 0;
+    float: right;
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    color: white ;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Inter',sans-serif;
+}
+
+.navlist ul li a:hover {
+    color:red;
+}
+
+.navbarr{
+    justify-content: right;
+    padding: 20px;
+}
+
+/* Header Css Ends*/
+
+/*Team css Starts*/
+
+.box {
+	background:#fff;
+	position:relative;
+	overflow: hidden;
+	text-align:center;
+    border: 2px solid black;
+    margin: 10px 0px;
+}
+.box:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    box-shadow: inset 0 0 25px rgba(0,0,0,0.30);
+    transition: all 0.3s ease;
+    background-image: linear-gradient(to right, #3c70a4 0%, #64b2cd 100%);
+}
+.box:hover:before {
+    width: 100%;
+}
+.box:hover .image-wrapper {
+	padding:0;
+}
+.box:hover .box-desc {
+	color:#fff;
+}
+
+.image-wrapper {
+    position: relative;
+	max-width: 210px;
+    max-height: 210px;
+	margin:0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 15px;
+    transition: all 0.5s ease;
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.20);
+}
+.image-wrapper img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: all 500ms ease;
+}
+.box-desc {
+	position:relative;
+}
+
+.box{
+    border-radius: 20px;
+}
+
+
+
+.box:hover .social li a {
+	background:#fff;
+	background-image: none;
+	color:#000;
+}
+.box:hover .social li a:hover {
+	background:#1d1d1d;
+	color:#fff;
+}
+
+ul.social {
+	padding:0;
+}
+ul.social li {
+	display:inline-block;
+	list-style-type:none;
+}
+ul.social li a {
+	position:relative;
+	width: 36px;
+    height: 36px;
+	background-image: linear-gradient(to right, #3c70a4 0%, #64b2cd 100%);
+	display:inline-block;
+	line-height:36px;
+	border-radius:50%;
+	color:#fff;
+	transition: all .5s ease;
+}
+/*Team css ends*/
+
+/*Core team css starts*/
+
+.th{
+    color: red;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600px;
+    text-align: center;
+}
+
+/*Core team css ends*/
+
+/*Footer css starts*/
+
+.footer-section{
+	
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	background-color:#00053b;
+	margin-top:0px;
+	padding: 10px 20px;
+}
+
+.footer-about{
+	padding:0 10px;
+}
+
+.footer-about img{
+	width: 100%;
+    max-width: 250px;
+    height: -webkit-fill-available;
+    padding-top: 10px;
+}
+
+.useful-links, .social-icons, .con{
+	padding:0 20px;
+	
+}
+
+.useful-links h4, .social-icons h4, .con h4{
+	font-size:18px;
+	color:orange;
+	text-transform:capitalize;
+    font-family: 'Inter',sans-serif;
+}
+
+.useful-links ul{
+	list-style: disc;
+	padding:0;
+    color: #fff;
+}
+
+.useful-links ul li, .social-icons ul li {
+	padding-bottom:10px;
+}
+
+.useful-links ul li a{
+	text-decoration:none;
+	font-size:18px;
+    color: #fff;
+    font-family: 'Inter',sans-serif;
+}
+
+.social-icons ul{
+    display: flex;
+}
+
+.social-icons  ul li a{
+    padding: 0px 10px;
+    color: #fff;
+    font-family: 'Inter',sans-serif;
+}
+
+.social-icons ul{
+    list-style: none;
+}
+
+.con ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.con ul li{
+    list-style: none;
+}
+
+
+/* Footer Css Ends*/
+
+.but ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    justify-content: center;
+}
+
+.but ul li{
+    background-color: red;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+
+.but ul li:hover{
+    background-color: #2cabe2;
+    color: black;
+}
+
+.hhhh{
+    display: none;
+}
+
+
+@media screen and (max-width:426px) {
+    body {
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    
+    }
+
+    /* Header Css Starts*/
+
+.header-bar{
+    display: inline-flex;
+    width: 100%;
+    background-color: black;
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 9px;
+}
+
+.client-logo {
+    width: 30%;
+    padding: 10px;
+}
+
+.navbarr {
+    width: 100%;
+}
+
+.navbarr{
+    justify-content: none;
+    padding: 0px;
+}
+
+.navlist ul {
+    list-style: none;
+    padding-bottom: 20px;
+    margin: 0;
+    float: right;
+    padding-top: 10px;
+}
+
+/* Header Css Ends*/
+
+/*Core Team css starts*/
+
+.box{
+    margin: 10px 0px;
+}
+
+/*Core Team css ends*/
+
+
+/* Footer Css Starts*/
+
+.footer-section{
+	
+	display:block;
+	background-color:#00053b;
+	margin-top:0px;
+	padding: 10px 20px;
+}
+
+.footer-about{
+	padding:0 10px;
+}
+
+.footer-about img{
+	width: 100%;
+    max-width: 100px;
+    height: -webkit-fill-available;
+    padding-top: 10px;
+}
+
+.useful-links, .social-icons{
+	padding:0 20px;
+	
+}
+
+.useful-links h4, .social-icons h4{
+	font-size:18px;
+	color:orange;
+	text-transform:capitalize;
+}
+
+.useful-links ul{
+	list-style: disc;
+	padding:0;
+    color: #fff;
+}
+
+.useful-links ul li, .social-icons ul li {
+	padding-bottom:10px;
+}
+
+.useful-links ul li a{
+	text-decoration:none;
+	font-size:18px;
+    color: #fff;
+}
+
+.social-icons ul{
+    display: flex;
+}
+
+.social-icons  ul li a{
+    padding: 0px 10px;
+    color: #fff;
+}
+
+.social-icons ul{
+    list-style: none;
+}
+
+/* Footer Css Ends*/
+
+}

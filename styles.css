@@ -8,50 +8,12 @@ body {
 
 /* Header Css Starts*/
 
-.header-bar{
-    display: inline-flex;
-    width: 100%;
-    background-color: black;
+.navbar-brand img {
+    max-height: 50px; /* Adjust the height of your logo */
 }
 
-.logo-img{
-    width:100%;
-    max-width: 88px;
-    height: 100%;
-}
-
-.client-logo , .navbarr {
-    width: 50%;
-    padding: 10px;
-}
-
-.navlist ul li {
-    display: inline;
-    padding-right: 10px;
-}
-
-.navlist ul {
-    list-style: none;
-    padding-top: 20px;
-    margin: 0;
-    float: right;
-}
-
-.navlist ul li a {
-    text-decoration: none;
-    color: white ;
-    text-transform: capitalize;
-    font-weight: 600;
-    font-family: 'Inter',sans-serif;
-}
-
-.navlist ul li a:hover {
-    color:red;
-}
-
-.navbarr{
-    justify-content: right;
-    padding: 20px;
+.navbar{
+    background-color: #000;
 }
 
 /* Header Css Ends*/
@@ -145,6 +107,14 @@ ul.social li a {
 /*Team css ends*/
 
 /*Core team css starts*/
+
+.thh{
+    color: red;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600px;
+    text-align: center;
+    padding-top: 75px;
+}
 
 .th{
     color: red;
@@ -269,45 +239,6 @@ ul.social li a {
     
     }
 
-    /* Header Css Starts*/
-
-.header-bar{
-    display: inline-flex;
-    width: 100%;
-    background-color: black;
-}
-
-.navlist ul li a {
-    text-decoration: none;
-    color: white;
-    text-transform: capitalize;
-    font-weight: 600;
-    font-size: 9px;
-}
-
-.client-logo {
-    width: 30%;
-    padding: 10px;
-}
-
-.navbarr {
-    width: 100%;
-}
-
-.navbarr{
-    justify-content: none;
-    padding: 0px;
-}
-
-.navlist ul {
-    list-style: none;
-    padding-bottom: 20px;
-    margin: 0;
-    float: right;
-    padding-top: 10px;
-}
-
-/* Header Css Ends*/
 
 /*Core Team css starts*/
 
